@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        //hint color And Label Color in False State
+        <item name="android:textColorHint">@color/material_blue_900</item>
+        <item name="android:textSize">17dp</item>
+        //Label color in True State And Bar Color False And True State
+        <item name="colorAccent">@color/material_blue_900</item>
+        <item name="colorControlNormal">@color/material_blue_900</item>
+        <item name="colorControlActivated">@color/material_blue_900</item>
+    </style>
+
+
+</resources>

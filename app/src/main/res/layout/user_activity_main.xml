@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/user_app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blue_dark"
+            android:weightSum="0"
+            tools:ignore="DisableBaselineAlignment">
+
+
+            <!--<RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:id="@+id/user_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="UseronCLickSetting"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/user_img_setting"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/ic_setting"
+                        android:tint="@color/white"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/user_tv_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:maxLines="1"
+                        android:paddingTop="@dimen/padding_bit"
+                        android:text="@string/setting"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_xxsmall"
+                        android:visibility="gone"
+                        tools:ignore="ObsoleteLayoutParam" />
+                </LinearLayout>
+            </RelativeLayout>-->
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/user_sendFile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="UseronCLickSendFile"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/user_img_sendFile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/ic_menu_send"
+                        android:tint="@color/white"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/user_tv_sendFile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:maxLines="1"
+                        android:paddingTop="@dimen/padding_bit"
+                        android:text="@string/new_form"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_xxsmall"
+                        android:visibility="gone"
+                        tools:ignore="ObsoleteLayoutParam" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/user_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="UseronCLickUser"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/padding_medium"
+                    android:paddingRight="@dimen/padding_medium"
+                    tools:ignore="user">
+
+                    <ImageView
+                        android:id="@+id/user_img_user"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/ic_user"
+                        android:tint="@color/white"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/user_tv_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:maxLines="1"
+                        android:paddingTop="@dimen/padding_bit"
+                        android:text="@string/see_user"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_xxsmall"
+                        android:visibility="gone"
+                        tools:ignore="ObsoleteLayoutParam" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <com.pars.company.user.user_fragment.User_NonSwipeableViewPager
+            android:id="@+id/user_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

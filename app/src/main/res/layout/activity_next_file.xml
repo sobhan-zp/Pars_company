@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/sp_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:hint="موضوع"
+            android:textColorHint="#CFD8DC"
+            app:met_floatingLabel="normal" />
+
+
+        <!-- maliyati -->
+        <LinearLayout
+            android:id="@+id/ll_maliyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_maliyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_maliyat"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_arzeshafzode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="ارزش افزوده"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_mashaghel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="مشاغل"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_hoghogh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="حقوق"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_fasli"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="سامانه گزارش فصلي"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_tanzim"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="تنظيم اظهار نامه"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+
+        </LinearLayout>
+
+
+
+        <!-- hoghooghi -->
+        <LinearLayout
+            android:id="@+id/ll_hoghoghi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_hoghoghi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_hoghoghi"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_mali"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="ارزش افزوده"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_shora"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="مشاغل"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+
+        </LinearLayout>
+
+
+        <!-- hesabdari -->
+        <LinearLayout
+            android:id="@+id/ll_hesabdari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_hesabdari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_hesabdari"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_daftar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="دفتر نويسي"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/sp_ekhtelaf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:hint="رفع اختلافات مالي"
+                android:textColorHint="#CFD8DC"
+                app:met_floatingLabel="normal" />
+
+
+        </LinearLayout>
+
+
+        <!-- amoozeshi -->
+        <LinearLayout
+            android:id="@+id/ll_amoozeshi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_amoozeshi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_amoozeshi"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="آموزش حسابداري مالي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="آموزش ماليات ارزش افزوده"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="آموزش دوره مهارت كارآفريني"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="آموزش بازاريابي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_a5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="آموزش بيمه"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <!-- hesabresi -->
+        <LinearLayout
+            android:id="@+id/ll_hesabresi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_hesabresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_hesabresi"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_h1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مميزي و تاييد گزارش هاي مالي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="تاييد اسناد و رفع اختلاف بين شركا"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="تعيين ارزش قدر السهم شركا"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <!-- moshavere -->
+        <LinearLayout
+            android:id="@+id/ll_moshavere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_moshavere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_moshavere"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره حقوقي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره مالي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره فروش"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره بازاريابي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره كار و كارگري"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره بيمه و بازنشستگي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاور مالياتي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_m8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="مشاوره بيمه بازرگاني"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <!-- refahi -->
+        <LinearLayout
+            android:id="@+id/ll_refahi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_refahi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blue_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/tv_refahi"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_r1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="برگذلري تورهاي سياحتي داخلي و خارجي"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_r2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="يرگذاري برنامه هاي تفريحي نظير: اجراي تئاتر، كنسرت موسيقي، مسابقات ورزشي و ..."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_r3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="برگذاري جلسات تخصصي در خصوص بازاريابي فروش، هتلداري و …"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_r4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="بهره مندي از مراكز اقامتي(هتل هاي طرف قرارداد) تورهاي سياحتي (آژانس هاي طف قرارداد)،باشگاها و استخر هاي تخصصي طرف قرارداد"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_r5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="بهرهمندي از تخفيفات ويژه خريد(هايپرماركت هاي طرف قرارداد)"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="left"
+                android:layout_margin="15dp"
+                android:orientation="horizontal" >
+
+
+
+                <CheckBox
+                    android:id="@+id/cb_r6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text=""
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="false"
+                    android:text="بهرهمندي از تخفيفات ويژه خريد(رستوران هاي طرف قرارداد)"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <!-- button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_next_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/gray_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="ارسال"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+
+

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">موسسه حقوقی پارس(ادمین)</string>
+    <string name="app_name_user">موسسه حقوقی پارس(کاربر)</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="home">خانه</string>
+    <string name="setting">فرم های دریافتی</string>
+    <string name="new_form">ارسال فرم</string>
+    <string name="send_form">فرم های ارسالی</string>
+    <string name="see_user">مشاهده کاربر</string>
+
+
+    <string name="tv_row_allSt">ردیف</string>
+    <string name="tv_name_allSt">نام خانوادگی</string>
+    <string name="tv_username_allSt">نام کاربری</string>
+    <string name="tv_finish_allSt">وضعیت</string>
+
+
+    <string name="input">پیام به کاربر</string>
+    <string name="input_hint">متن پیام را وارد کنید</string>
+    <string name="input_prefill"></string>
+    <string name="InputCallback">کلاس عقب</string>
+
+
+    <string name="btn_login">ورود به برنامه</string>
+    <string name="btn_guest">ورود مهمان</string>
+    <string name="btn_regester">ثبت نام</string>
+    <string name="txt_login">ورود به برنامه</string>
+    <string name="txt_register">ثبت نام</string>
+    <string name="txt_editprofile">ویرایش اطلاعات</string>
+
+    <string name="fotgot_pass">رمز عبور را فراموش کردم</string>
+    <string name="already_registered">قبلا ثبت نام کردم</string>
+    <string name="notRegistered">هنوز ثبت نام نکردم</string>
+    <string name="pro_search">جستجوی پیشرفته</string>
+
+
+    <string name="reg_name">نام موسسه</string>
+    <string name="reg_namayande">نام نماینده</string>
+    <string name="password">رمز عبور</string>
+    <string name="reg_confirmPass">تکراررمزعبور</string>
+    <string name="reg_email">پست الکترونیکی</string>
+    <string name="tel">تلفن همراه</string>
+    <string name="telphon">تلفن تماس</string>
+    <string name="address">آدرس</string>
+
+
+    <string name="title_sub">موضوع :</string>
+    <string name="tv_start_cal">تاریخ:</string>
+    <string name="tv_start_user">نام کاربر:</string>
+    <string name="tv_enterClass_onlineClass">ورود به کلاس</string>
+
+
+    <string name="btn_register_main">ثبت نام</string>
+    <string name="btn_editprofile_main">ثبت</string>
+
+    <string name="tv_maliyat">مالیاتی</string>
+    <string name="tv_hoghoghi">حقوقی</string>
+    <string name="tv_hesabdari">حسابداری</string>
+    <string name="tv_amoozeshi">آموزشی</string>
+    <string name="tv_hesabresi">حسابرسی</string>
+    <string name="tv_moshavere">مشاوره</string>
+    <string name="tv_refahi">رفاهی</string>
+
+    <string name="send">پیامهای ارسالی</string>
+    <string name="recive">صندوق پیام</string>
+
+
+</resources>
